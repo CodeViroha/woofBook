@@ -13,7 +13,7 @@ app.use(fileUpload());
 function base64_encode(file) {
     return new Buffer.from(file).toString('base64');
 }
-
+var myDB;
 mongoClient.connect(url, function (err, db) {
     if (err) {
         console.log(err, "Error!");
