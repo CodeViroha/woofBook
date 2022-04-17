@@ -79,3 +79,5 @@ app.patch('/posts/:id',(req, res)=>{
         $set: req.body
     })
 })
+
+module.exports = app;
