@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(/src/assets/dogBack.jpg);
+}
+
+.blur-card {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+}
+.nav-pic{
+  max-width: 4%;
+  max-height: 3%;
+  border-radius: 50%;
+  margin-right: 0;
+  margin-left: auto;
+}
+.sidebar {
+  position: fixed;
+  max-height: 45vh;
+  width: 15vw;
+  top: 51px;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
+  display: block;
+  padding: 20px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  border-right: 1px solid #eee;
+}
+.sidebar img{
+  max-width: 10vw;
+  max-height: 15vh;
+  border-radius: 50%;
+}
+.sidebar-right {
+  position: fixed;
+  top: 51px;
+  bottom: 0;
+  max-height: 60vh;
+  width: 10vw;
+  right: 0;
+  z-index: 1000;
+  display: block;
+  padding: 20px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  border-left: 1px solid #eee;
+}
+
+.postPic{
+  max-width: 5%;
+  max-height: 5%;
+  border-radius: 50%;
+}
+
+.postImage{
+  max-width: 50vw;
+  max-height: 50vh;
+}
